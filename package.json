@@ -1,0 +1,13 @@
+{
+  "name": "polka-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Raul Romo <rromomxdev@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "13.9.0"
+  },
+  "dependencies": {
+    "polka": "^0.5.2"
+  }
+}
