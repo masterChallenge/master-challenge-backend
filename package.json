@@ -8,6 +8,7 @@
     "node": "13.9.0"
   },
   "dependencies": {
+    "mongodb": "^3.5.7",
     "polka": "^0.5.2"
   }
 }
