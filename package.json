@@ -1,14 +1,21 @@
 {
   "name": "polka-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "author": "Raul Romo <rromomxdev@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
   "engines": {
-    "node": "13.9.0"
+    "node": "14.x"
   },
   "dependencies": {
-    "mongodb": "^3.5.7",
+    "mongodb": "^3.5.9",
+    "nodemon": "^2.0.7",
     "polka": "^0.5.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
   }
 }
