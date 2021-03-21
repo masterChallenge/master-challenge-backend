@@ -1,5 +1,5 @@
 const polka = require('polka');
-require('dotenv').config();
+//require('dotenv').config();
 const PORT = process.env.PORT || 5000;
 const uriMongo = process.env.DRIVER;
 const MongoClient = require('mongodb').MongoClient;
